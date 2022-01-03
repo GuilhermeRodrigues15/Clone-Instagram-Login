@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+section{
+    width: 50%;
+}
+
+section#phone{
+    display: flex;
+    justify-content: flex-end;
+}
+
