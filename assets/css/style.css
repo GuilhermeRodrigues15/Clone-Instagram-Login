@@ -8,15 +8,11 @@
 main{
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 section{
     width: 50%;
-}
-
-div#slider{
-    position: relative;
 }
 
 .slider-image{
@@ -28,6 +24,13 @@ div#slider{
 section#phone{
     display: flex;
     justify-content: flex-end;
+    margin-left: 30px;
+    
+}
+
+div#slider{
+   position: relative;
+   left: 22px;
 }
 
 #form-area{
@@ -38,12 +41,15 @@ section#phone{
     justify-content: center;
     padding: 10px 0;
     border: 1px solid #DBDBDB;
+
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 #form-title{
     width: 200px;
     height: 65px;
-    margin: 22px auto 12px;
+    margin: 22px auto 34px auto;
     background: url("../img/instagram-logo.png");
 }
 
@@ -59,11 +65,15 @@ section#phone{
     height: 36px;
     padding: 9px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
 }
 
 form input{
     width: 100%;
-    font-size: 14px;
+    font-size: 12px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     border: none;
 }
